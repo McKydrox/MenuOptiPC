@@ -64,7 +64,7 @@ timeout 2 > NUL
 GOTO MENU_START
 
 :OPTION5
-ECHO preparation des la supression des fichier temporaire en cours ...
+ECHO preparation de la supression des fichier temporaire en cours ...
 Del "%SystemRoot%\System32\spool\printers\*.*" /F /Q /S 
 Del "%Userprofile%\Local Settings\Temp\*.*" /F /Q /S
 Del "%Userprofile%\Local Settings\Temporary Internet Files\*.*" /F /Q /S
